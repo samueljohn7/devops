@@ -36,3 +36,5 @@
   - How will networking work
   - How will the security be taken care of
   - Monitoring & Feedback
+
+## Zero down time deployment
