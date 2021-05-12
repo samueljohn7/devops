@@ -1,6 +1,13 @@
 
 # Devops Interview
 
+Before starting please create a fork of this repo in your account
+
+## Automation pipelines
+* Setup a pipeline in [Travis CI](https://travis-ci.org/) for this application to do the following
+  - check code format using [black](https://github.com/psf/black)
+  - perform static code analysis using [pylint](https://www.pylint.org/)
+
 
 ## Virtualization
 * Dockerize this application
