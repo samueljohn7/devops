@@ -19,7 +19,7 @@ Before starting please create a fork of this repo in your account
 ## Infrastructure As Code
 * Write a terraform script to provision Linode instance
   - https://registry.terraform.io/providers/linode/linode/latest/docs
-* Write ansible script to ssh into Linode instance and do the following
+* Write [ansible playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html#intro-to-playbooks) to ssh into Linode instance and do the following
     * install python
     * clone the repository and install dependencies
     * run the application
