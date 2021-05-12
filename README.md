@@ -12,8 +12,9 @@
 ## Infrastructure As Code
 * Write a terraform script to provision Linode instance
   - https://registry.terraform.io/providers/linode/linode/latest/docs
-* Write ansible script to ssh into Linode instance
-    * clone the repository
+* Write ansible script to ssh into Linode instance and do the following
+    * install python
+    * clone the repository and install dependencies
     * run the application
 
 
