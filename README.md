@@ -38,3 +38,5 @@
   - Monitoring & Feedback
 
 ## Zero down time deployment
+* How can we achieve zero down time deployment for this application
+* what is the recommended strategy
