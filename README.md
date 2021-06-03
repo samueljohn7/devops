@@ -11,14 +11,16 @@ Before starting please create a fork of this repo in your account
 
 ## Virtualization
 * Dockerize this application
-  - https://docs.docker.com/engine/reference/builder/
+  - You can use [docker labs](https://labs.play-with-docker.com/) for compute
+  - [Documentation](https://docs.docker.com/engine/reference/builder/)
 * Write K8 manifests for deploying the dockerized app to kubernetes
-  - https://kubernetes.io/docs/home/
+  - You can use [k8s labs](https://labs.play-with-k8s.com/) for compute
+  - [Documentation](https://kubernetes.io/docs/home/)
 
 
 ## Infrastructure As Code
 * Write a terraform script to provision Linode instance
-  - https://registry.terraform.io/providers/linode/linode/latest/docs
+  - [Documentation](https://registry.terraform.io/providers/linode/linode/latest/docs)
 * Write [ansible playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html#intro-to-playbooks) to ssh into Linode instance and do the following
     * install python
     * clone the repository and install dependencies
@@ -27,7 +29,7 @@ Before starting please create a fork of this repo in your account
 
 ## Scripting (Python or Shell)
 * Implement a simple CLI calculator
-  - https://click.palletsprojects.com/en/8.0.x/#documentation
+  - [Documentation](https://click.palletsprojects.com/en/8.0.x/#documentation)
 
 ```
 # usage
