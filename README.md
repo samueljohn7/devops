@@ -4,7 +4,7 @@
 Before starting please create a fork of this repo in your account
 
 ## Automation pipelines
-* Setup a pipeline in [Travis CI](https://docs.travis-ci.com/user/languages/python/) for this application to do the following
+* Setup a pipeline via [Github Actions](https://docs.github.com/en/actions/quickstart) for this application to do the following
   - check code format using [black](https://github.com/psf/black)
   - perform static code analysis using [pylint](https://www.pylint.org/)
 
